@@ -1,0 +1,17 @@
+Tmin = 0.0
+Tmax = 300.0
+Xmin = -30.0
+Xmax = 30.0
+deltaT = 0.001
+deltaX = 0.1
+Tau = 1.0
+Gamma = 1.0
+1) u(x,0) = 0.4 * math.exp(-(x * x) / 2) + 0.1
+2) u(x,0) = 0.0
+u_t(x,0) = 0.0
+u(Xmin, t) = 0.0
+u(Xmax, t) = 0.0
+Phi(u) = u * u
+k(u) = u * u + 0.1
+k'(u) = 0.0
+f(u) = u * u

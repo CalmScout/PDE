@@ -1,0 +1,32 @@
+#Wave one dimensional equation
+#Parameters of the scheme
+Tmin = 0.0
+Tmax = 10.0
+Xmin = -30.0
+Xmax = 30.0
+deltaT = 0.1
+deltaX = 0.1
+#Initial conditions
+1) u(x,0) = .4 * math.exp(-(x * x) / 2)
+2) u(x,1) = 0.0
+u_t(x,0) = 0.0
+#Boundary conditions
+u(Xmin, t) = 0.0
+u(Xmax, t) = 0.0
+#Equation parameters
+Tau = 0.0
+r(u) = 0.0
+alpha = 1.0
+s(u) = 1.0
+beta = 2.0
+phi(u) = 1.0
+mu = 0.0
+k(u) = 0.0
+nu = 0.0
+psi(u) = 0.0
+gamma = 0.0
+h(u) = 0.0
+xi = 0.0
+b(u) = 0.0
+theta = 0.0
+f(u) = 0.0
